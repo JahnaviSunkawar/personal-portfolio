@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    color:#222;
+    line-height:1.6;
+    padding:30px;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+.role{
+    font-size:28px;
+    color:#555;
+    margin-bottom:15px;
+}
+
+.intro{
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    background:black;
+    color:white;
+    padding:12px 24px;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#444;
+}
+
+.card{
+    background:white;
+    margin-top:30px;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2{
+    margin-bottom:20px;
+    font-size:35px;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+    gap:15px;
+    list-style:none;
+}
+
+.skills li{
+    background:#222;
+    color:white;
+    padding:12px;
+    border-radius:8px;
+    text-align:center;
+}
+
+#projects div{
+    background:#f9f9f9;
+    padding:20px;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+a{
+    color:#0066cc;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+footer{
+    text-align:center;
+    margin-top:40px;
+    padding:20px;
+    color:#666;
+}
